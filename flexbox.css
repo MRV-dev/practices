@@ -75,12 +75,8 @@ body{
 @media (max-width: 600px) {
   .boxes {
     flex-direction: column;
-    padding-left: 80px;
+    margin-left: 25px;
     padding: 50px;
-  }
-
-  .box1, .box2, .box3{
-
   }
 
   .nav-bar ul{
