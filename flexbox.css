@@ -1,0 +1,97 @@
+body{
+  background-color: rgb(241, 249, 255);
+  margin: 0%;
+  height: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.nav-bar{
+  background-color: rgb(76, 8, 153);
+  height: 75px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.nav-bar ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.nav-bar input{
+  margin-left: 30px;
+  height: 25px;
+  padding-left: 10px;
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+.nav-bar input:focus{
+  outline: none;
+}
+.nav-bar input::placeholder{
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
+
+.nav-bar ul li a{
+  color: rgb(31, 23, 40);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: auto;
+  padding: 100px;
+  padding-left: 210px;
+  padding-bottom: 0;
+  
+}
+
+.box1, .box2, .box3{
+  background-color: rgb(76, 8, 153);
+  height: 65vh;
+  width: 350px;
+  border-radius: 30px;
+}
+
+
+@media (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+    padding-left: 80px;
+    padding: 50px;
+  }
+
+  .box1, .box2, .box3{
+
+  }
+
+  .nav-bar ul{
+    gap: 25px;
+  }
+
+  .nav-bar ul li a{
+    font-size: 16px;
+  }
+
+  .nav-bar input{
+    width: 180px;
+  }
+}
