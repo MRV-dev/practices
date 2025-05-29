@@ -82,7 +82,7 @@ body{
   border-radius: 30px;
 }
 
-.box1::after, .box1::before,
+/* .box1::after, .box1::before,
 .box2::after, .box2::before,
 .box3::after, .box3::before {
   content: '';
@@ -116,7 +116,7 @@ body{
   to{
     --angle: 360deg;
   }
-}
+} */
 
 
 
@@ -154,9 +154,7 @@ img{
 
 
 
-@media (min-width: 320px) and (max-width: 600px) {
-  
-
+@media (max-width: 600px) {
 
   .boxes {
     flex-direction: column;
@@ -218,7 +216,7 @@ img{
 
 
 
-  .box1::after, .box1::before {
+  /* .box1::after, .box1::before {
     height: 63.1%;
     width: 70.5%;
     translate: -1.5% -54.9%;
@@ -244,7 +242,7 @@ img{
 .box3::before{
     filter: blur(1.5em);
     opacity: 2;
-  }
+  } */
   
 
   img{
