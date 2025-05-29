@@ -22,7 +22,7 @@ body{
 }
 
 .neontext{
-  font-size: 6.2rem;
+  font-size: clamp(5.4rem, calc(1vw + 1rem), 3rem);
   text-align: center;
   font-weight: 500;
   border-radius: 2rem;
@@ -113,13 +113,13 @@ body{
   0% {
     text-shadow: 
       0 0 2px #fff,
-      0 0 5px #fff,
+      0 0 3px #fff,
       0 0 6px #fff,
-      0 0 10px #13fedf,
-      0 0 45px #13fedf,
-      0 0 52px #13fedf,
-      0 0 60px #13fedf,
-      0 0 80px #13fedf;
+      0 0 8px #13fedf,
+      0 0 30px #13fedf,
+      0 0 47px #13fedf,
+      0 0 50px #13fedf,
+      0 0 70px #13fedf;
 
 
 
