@@ -20,6 +20,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 .G-result{
   color: #fff;
@@ -42,7 +43,7 @@ body{
   height: 3rem;
   width: 6rem;
   font-size: .7em;
-  z-index: -1;
+  
 }
 
 @media (max-width: 600px) {
