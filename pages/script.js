@@ -50,22 +50,17 @@ function Play(playerMove){
   }
 
 
-
-  if(memeImg.includes('Epic-Handshake.jpg')){
-    imgHandshake = 'width: 200px; display: block;'
-  }
-
-
+  img = 'width: 250px; display: block;'
 
   const Result = document.querySelector('.results')
   Result.innerHTML = `<div class="result-overlay" style="text-align: center;">
-  <img src="${memeImg}" style="${imgHandshake}">
+  <img src="${memeImg}" style="${img}">
   <p class="G-result">you picked ${playerMove}. computer picked ${computerMove}. ${result}</p>
   </div>`
   
   setTimeout(()=>{
     Result.innerHTML = ''
-  }, 2000)
+  }, 2500)
 }
 
 
