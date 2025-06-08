@@ -46,6 +46,16 @@ body{
   
 }
 
+.next{
+  position: absolute;
+  bottom: 12rem;
+  left: 30rem;
+  height: 3rem;
+  width: 6rem;
+  font-size: .7em;
+  
+}
+
 @media (max-width: 600px) {
   
   body{
